@@ -54,17 +54,20 @@ section#s1{
 section#s2{
     display: flex;
     flex-direction: column;
+    gap: 50px;
+    padding: 50px 0 100px 0;
 }
 
-h2.s2{
+p.s2{
     text-align: center;
+    font-size: 30px;
 }
 
 .s2-content{
     display: flex;
-    justify-content: space-between;
-    padding: 0 20%;
+    justify-content: center;
     text-align: center; 
+    gap: 4%;
 }
 
 .s2-info{
@@ -72,8 +75,14 @@ h2.s2{
 }
 
 .s2-img{
-    height: 145px;
-    width: 145px;
+    height: 140px;
+    width: 140px;
     border: 3px solid rgb(59, 130, 246);
     border-radius: 10px;
 }
+
+p.subtext{
+    font-weight: lighter;
+    font-size: 16px;
+}
+
